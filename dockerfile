@@ -10,7 +10,7 @@ COPY  . .
 
 RUN go build -o main .
 
-#final stage distraless image
+#final stage distroless image
 
 
 FROM gcr.io/distroless/base
